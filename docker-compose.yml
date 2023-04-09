@@ -11,25 +11,25 @@ services:
       MEMORY: 2G
       VERSION: "1.7.2"
       SPAWN_MONSTERS: 'true'
-      USE_MODPACK_START_SCRIPT: false
+      USE_MODPACK_START_SCRIPT: 'false'
       MOTD: "Server by Adam"
       OPS: "jestem__adam"
       MAX_PLAYERS: 20
-      ANNOUNCE_PLAYER_ACHIEVEMENTS: true
-      ENABLE_COMMAND_BLOCK: true
-      FORCE_GAMEMODE: true
-      GENERATE_STRUCTURES: true
-      SNOOPER_ENABLED: false
+      ANNOUNCE_PLAYER_ACHIEVEMENTS: 'true'
+      ENABLE_COMMAND_BLOCK: 'true'
+      FORCE_GAMEMODE: 'true'
+      GENERATE_STRUCTURES: 'true'
+      SNOOPER_ENABLED: 'false'
       SPAWN_PROTECTION: 10
       VIEW_DISTANCE: 10
       SEED: 1785852600499497919
       MODE: survival
-      PVP: false
-      ONLINE_MODE: false
+      PVP: 'false'
+      ONLINE_MODE: 'false'
       SERVER_NAME: "Server Adama"
       ICON: "https://yt3.googleusercontent.com/ytc/AL5GRJX-766OL8vKOQzftYBRTTm2kmUIrE8vNDaYA1mC=s176-c-k-c0x00ffffff-no-rj"
-    tty: true
-    stdin_open: true
+    tty: 'true'
+    stdin_open: 'true'
     restart: unless-stopped
     volumes:
       # attach a directory relative to the directory containing this compose file
