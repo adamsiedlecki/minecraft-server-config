@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  mc:
+  mc-1.7.2:
     image: itzg/minecraft-server:2022.7.0-java17
     ports:
       - 25565:25565
